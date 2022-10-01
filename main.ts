@@ -1,8 +1,8 @@
-let number = 0
+let n = 0
 input.onGesture(Gesture.Shake, function () {
     basic.clearScreen()
-    number = randint(1, 6)
-    if (number == 1) {
+    n = randint(1, 6)
+    if (n == 1) {
         basic.showLeds(`
             . . . . .
             . . . . .
@@ -10,7 +10,7 @@ input.onGesture(Gesture.Shake, function () {
             . . . . .
             . . . . .
             `)
-    } else if (number == 2) {
+    } else if (n == 2) {
         basic.showLeds(`
             . . . . .
             . . . . .
@@ -18,7 +18,7 @@ input.onGesture(Gesture.Shake, function () {
             . . . . .
             . . . . .
             `)
-    } else if (number == 3) {
+    } else if (n == 3) {
         basic.showLeds(`
             . . . . #
             . . . . .
@@ -26,7 +26,7 @@ input.onGesture(Gesture.Shake, function () {
             . . . . .
             # . . . .
             `)
-    } else if (number == 4) {
+    } else if (n == 4) {
         basic.showLeds(`
             # . . . #
             . . . . .
@@ -34,7 +34,7 @@ input.onGesture(Gesture.Shake, function () {
             . . . . .
             # . . . #
             `)
-    } else if (number == 5) {
+    } else if (n == 5) {
         basic.showLeds(`
             # . . . #
             . . . . .
